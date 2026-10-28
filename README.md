@@ -4,11 +4,11 @@ The support desk merged 412 reports about dates into one ticket, #4471, and mark
 
 | issue | problem | reports |
 |---|---|---|
-| [#1](https://github.com/Artexs/mega-dev-s01e03/issues/1) | Shared parser reads day-first dates month first | 374 |
+| [#1](https://github.com/Artexs/mega-dev-s01e03/issues/1) | Shared parser reads day-first dates month first | 379 |
 | [#2](https://github.com/Artexs/mega-dev-s01e03/issues/2) | booking-v3 form hint says MM/DD/YYYY, the form reads DD/MM | 33 |
 | [#3](https://github.com/Artexs/mega-dev-s01e03/issues/3) | Dates shift by one day across time zones | 5 |
 
-374 + 33 + 5 = 412 unique reports (the export has 427 rows; 15 are repeats).
+412 unique reports (the export has 427 rows; 15 are repeats). Counted the desk's way: the 5 one-day reports also count under the parser, where the desk files them (379 + 33 = 412).
 
 ## The kb page
 

@@ -14,6 +14,7 @@
       .sort((a, b) => b[1] - a[1])
       .map(([k, v]) => `${k} ×${v}`)
       .join(' · ');
+  const twice = $derived(split.merged.filter((r) => notes.oneDayMove.includes(r.id)).length);
   const issueNo = (href: string) => `#${href.split('/').pop()}`;
 </script>
 
@@ -47,6 +48,10 @@
     {/each}
   </tbody>
 </table>
+
+{#if twice}
+  <p class="small">{twice} reports read as a one-day move count twice: where the desk files them by tenant, and under <code>one-day</code>.</p>
+{/if}
 
 <style>
   .sum { font-size: 1.1rem; }
