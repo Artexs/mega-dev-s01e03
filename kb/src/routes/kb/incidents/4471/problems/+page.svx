@@ -33,6 +33,14 @@ Not one issue. Each problem below has its own ticket, its own owner and its own 
 
 Counted by report id: the ticket export repeats some reports across pages, and each counts once.
 
+## Outcome
+
+#4471 closed on 5 October. Engineering's update:
+
+- \`parser\`: **fixed**, \`fix(dates): parse dd/mm for eu locales\`. Ticket closed as completed.
+- \`hint\`: **won't fix**, the booking-v3 form is retired. Ticket closed as not planned.
+- \`one-day\`: **still open**. Neither change touches time zones; it needs its own owner.
+
 ## The three problems
 
 **`parser`: the shared parser reads every date month first.** Every tenant on file writes the

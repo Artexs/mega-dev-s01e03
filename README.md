@@ -2,11 +2,11 @@
 
 The support desk merged 412 reports about dates into one ticket, #4471, and marked it known. It holds three problems. Each one has its own ticket in this repo's issues:
 
-| issue | problem | reports |
-|---|---|---|
-| [#1](https://github.com/Artexs/mega-dev-s01e03/issues/1) | Shared parser reads day-first dates month first | 379 |
-| [#2](https://github.com/Artexs/mega-dev-s01e03/issues/2) | booking-v3 form hint says MM/DD/YYYY, the form reads DD/MM | 33 |
-| [#3](https://github.com/Artexs/mega-dev-s01e03/issues/3) | Dates shift by one day across time zones | 5 |
+| issue | problem | reports | outcome |
+|---|---|---|---|
+| [#1](https://github.com/Artexs/mega-dev-s01e03/issues/1) | Shared parser reads day-first dates month first | 379 | fixed — closed as completed |
+| [#2](https://github.com/Artexs/mega-dev-s01e03/issues/2) | booking-v3 form hint says MM/DD/YYYY, the form reads DD/MM | 33 | won't fix, booking-v3 retired — closed as not planned |
+| [#3](https://github.com/Artexs/mega-dev-s01e03/issues/3) | Dates shift by one day across time zones | 5 | open — not covered by either change |
 
 412 unique reports (the export has 427 rows; 15 are repeats). Counted the desk's way: the 5 one-day reports also count under the parser, where the desk files them (379 + 33 = 412).
 
